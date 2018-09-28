@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/make_booking"
+            android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/from_where" />
+
+        <Spinner
+            android:id="@+id/cities_spinner_mista"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/to_where" />
+
+        <Spinner
+            android:id="@+id/cities_spinner_mihin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+
+    <DatePicker
+        android:id="@+id/simpleDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginRight="@dimen/layout_margin_left"
+        android:datePickerMode="spinner"
+        android:layout_marginBottom="30dp"/>
+
+        <Button
+
+            android:id="@+id/alert_dialog_time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_time"
+            android:background="@color/button"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="30dp"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="@dimen/layout_margin_left"
+       android:orientation="horizontal"
+       >
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/amount_of_tickets"/>
+       <Spinner
+           android:id="@+id/number_of_tickets"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:spinnerMode="dropdown" />
+
+
+   </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_varaus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textColor="@android:color/white"
+            android:background="@color/button"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/layout_margin_left"
+            android:layout_marginLeft="140dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

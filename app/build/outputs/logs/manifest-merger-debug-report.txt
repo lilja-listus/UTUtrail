@@ -1,0 +1,277 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+MERGED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lilja/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c5c8aa17f267ac9ee7c4513b4652fd01/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:11:22-76
+application
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:13:5-93:19
+MERGED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lilja/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c5c8aa17f267ac9ee7c4513b4652fd01/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lilja/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c5c8aa17f267ac9ee7c4513b4652fd01/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:17:9-48
+	android:icon
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:19:9-40
+activity#com.example.utu.ututrail.LoginActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:20:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.example.utu.ututrail.TripSummaryActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:parentActivityName
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:30:13-68
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:29:13-48
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:31:13-33:62
+	android:value
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:33:17-59
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:32:17-63
+activity#com.example.utu.ututrail.SignupActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:35:9-43:20
+	android:parentActivityName
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:36:13-43
+activity#com.example.utu.ututrail.ChooseSeatActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:44:9-58:20
+	android:parentActivityName
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:45:13-47
+intent-filter#action:name:com.hmkcode.android.ChooseTrainActivity+category:name:android.intent.category.DEFAULT
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:53:13-57:29
+action#com.hmkcode.android.ChooseTrainActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:54:25-79
+category#android.intent.category.DEFAULT
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:56:27-73
+activity#com.example.utu.ututrail.AdminActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:61:9-68:20
+	android:parentActivityName
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:63:13-56
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:62:13-42
+activity#com.example.utu.ututrail.ChooseDestinationActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:70:9-77:20
+	android:parentActivityName
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:72:13-68
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:71:13-54
+provider#com.example.utu.ututrail.data.RailContentProvider
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:79:9-82:40
+	android:authorities
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:81:13-68
+	android:exported
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:80:13-53
+activity#com.example.utu.ututrail.CatalogActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:84:9-53
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:84:19-50
+activity#com.example.utu.ututrail.AboutTripActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:85:9-55
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:85:19-52
+activity#com.example.utu.ututrail.TrainCatalog
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:86:9-50
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:86:19-47
+activity#com.example.utu.ututrail.EditTrain
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:87:9-47
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:87:19-44
+activity#com.example.utu.ututrail.TrainTypeOrder
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:88:9-52
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:88:19-49
+activity#com.example.utu.ututrail.PaymentActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:89:9-53
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:89:19-50
+activity#com.example.utu.ututrail.GoodByeActivity
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:90:9-53
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:90:19-50
+activity#com.example.utu.ututrail.TicketsCatalog
+ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:92:9-61
+	android:name
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml:92:19-49
+uses-sdk
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lilja/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c5c8aa17f267ac9ee7c4513b4652fd01/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lilja/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c5c8aa17f267ac9ee7c4513b4652fd01/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		ADDED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f6f66170a7a76e728d29afe44359dada/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b4fdbc826a68c606d59e218516992dea/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/8efee1cc1d9a1d9ebbdb49b642c823d8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3e1b809c6e4016d95dc5f7aeae28bae9/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/dd18f67d6a32b1498de0e126473eb6ca/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/36d5af359b360470048ae1007965bbc9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1104ab1e943c3ecbc83856c725beac08/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4288d59efa76f3d618aa8494bb21500e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f0a09c86bd8c4a7fcaf10b09c15f5bc8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/24c6b51df55a0a8500c8e1ee418f1bea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d740cfcf5efaa7a13c4b4b8c8d313cfa/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1402b408c0edac2d226b699294e82e44/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/lilja/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9ccff5801ac7f0f4c241b543a9181b5b/AndroidManifest.xml:26:13-58

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:hint="Lippu"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TableLayout
+
+            android:id="@+id/vaunu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_span="4"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Valitse vaunu"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/vaunu1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/vaunu2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#000000" />
+
+            </TableRow>
+        </TableLayout>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="allergia"
+                    android:id="@+id/allergy_box"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lemikki"
+                    android:id="@+id/pet_box"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pyoratuoli"
+                    android:id="@+id/wheelchair_box"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/layout_margin_left"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/quiet_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="84dp"
+                    android:text="hiljainen" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="perhetila"
+                    android:id="@+id/family_box"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="leikkitila"
+                    android:id="@+id/playground_box"/>
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:id="@+id/add_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+android:textColor="@android:color/white"
+                android:text="@string/one_more"
+                android:background="@color/button"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/continue_to_complete"
+                android:layout_width="wrap_content"
+               android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+
+                android:text="@string/next"
+                android:background="@color/button"
+
+                />
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/paikka"
+            >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal"
+               >
+
+                <TextView
+                    android:id="@+id/seat1"
+                    android:visibility="invisible"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/seat2"
+                    android:layout_width="40dp"
+                    android:visibility="invisible"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/seat3"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:visibility="invisible"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="3"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/seat4"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:visibility="invisible"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="4"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/seat5"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:visibility="invisible"
+
+                    android:layout_marginRight="30dp"
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="5"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/seat6"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp"
+                    android:visibility="invisible"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="6"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/seat7"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:visibility="invisible"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="7"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/seat8"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:visibility="invisible"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="8"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/seat9"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:visibility="invisible"
+
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="9"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/seat10"
+                    android:layout_width="40dp"
+                    android:visibility="invisible"
+
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#FFFFFF"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="10"
+                    android:textColor="#000000" />
+
+            </TableRow>
+        </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

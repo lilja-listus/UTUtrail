@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utu.ututrail">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/utu_trail"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/utu_trail"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TripSummaryActivity"
+            android:parentActivityName=".ChooseDestinationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChooseDestinationActivity" />
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:parentActivityName=".LoginActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name=".ChooseSeatActivity"
+            android:parentActivityName=".TripSummaryActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TripSummaryActivity" />
+
+            <intent-filter>
+                <action android:name="com.hmkcode.android.ChooseTrainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".AdminActivity"
+            android:parentActivityName=".AdminActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+
+        <activity
+            android:name=".ChooseDestinationActivity"
+            android:parentActivityName=".ChooseDestinationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+
+        <provider
+            android:name=".data.RailContentProvider"
+            android:authorities="com.example.utu.ututrail.provider"
+            android:exported="false" />
+
+        <activity android:name=".CatalogActivity" />
+        <activity android:name=".AboutTripActivity" />
+        <activity android:name=".TrainCatalog" />
+        <activity android:name=".EditTrain" />
+        <activity android:name=".TrainTypeOrder" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".GoodByeActivity" />
+
+        <activity android:name=".TicketsCatalog"></activity>
+    </application>
+
+</manifest>

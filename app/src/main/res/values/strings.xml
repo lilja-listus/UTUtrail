@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">UTU rail</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_login">This login is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Spinner dropdown  -->
+    <string-array name="cities_array">
+        <item>Helsinki</item>
+        <item>Turku</item>
+        <item>Tampere</item>
+        <item>Salo</item>
+        <item>Oulu</item>
+
+    </string-array>
+
+    <string-array name="tickets_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+
+    </string-array>
+    <!-- Spinner dropdown  -->
+
+
+    <!-- User activity-->
+    <string name="welcome">Kiitos!</string>
+    <string name="continue_button">Continue</string>
+
+
+    <string name="placeholder">text goes here</string>
+
+
+    <string name="editor_insert_successful">insert successful</string>
+    <string name="editor_insert_failed">insert failed</string>
+    <string name="editor_update_successful">Update successful</string>
+
+    <string name="editor_update_failed">Update failed</string>
+    <string name="give_full_info">Give full info</string>
+    <string name="unsaved_changes_dialog_msg">Unsaved changes</string>
+    <string name="discard">Disgard changes</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_failed">Delete failed</string>
+    <string name="editor_delete_successful">Delete Successful</string>
+    <string name="editor_activity_title_new_item">New User</string>
+    <string name="editor_activity_title_edit_item">Edit User</string>
+    <string name="menu_editor">Menu editor</string>
+
+    <string name="error_message_login">Use correct login or sign up</string>
+    <string name="error_message_password">Use correct password</string>
+
+
+    <!--Andmin view -->
+
+<string name="hello_admin">Welcome, Admin</string>
+<string name="choose_trip">Book Ticket</string>
+<string name="change_trains">Edit Trains</string>
+<string name="change_users">Edit Users</string>
+
+
+
+    <string name="wrong_log_or_pass">Username or password is incorrect</string>
+
+    <!--EditTrain view -->
+
+    <string name="train_name">Name of the Train</string>
+    <string name="trip_duration">Trip Duration</string>
+    <string name="train_type">Train Type</string>
+    <string name="ticket_price">Ticket Price</string>
+    <string name="train_service">Available Services</string>
+
+
+    <string name="my_tickets">My Tickets</string>
+
+    <string name="save">Save</string>
+
+    <!--Login view -->
+
+    <string name="user_name">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="sign_up">New User</string>
+
+    <!--Payment view -->
+
+    <string name="payment">Payment</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="pay_in_train">Pay in the Train</string>
+    <string name="finish">Finish</string>
+
+
+<string name="next">next</string>
+    <string name="Juna">train</string>
+    <string name="ticket_summary">Chosen Trip</string>
+
+    <!--ChooseDestination view -->
+
+    <string name="make_booking">Choose Trip</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="from_where">Departure</string>
+    <string name="to_where">Destination</string>
+    <string name="amount_of_tickets">Amount of Tickets</string>
+    <string name="submit">Send</string>
+
+<string name="one_more">Add a Ticket</string>
+
+    <!--SignUp activity view -->
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="credit_card">Bank Card</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">e-mail</string>
+</resources>
+
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utu.ututrail"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/utu_trail"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/utu_trail"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.utu.ututrail.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utu.ututrail.TripSummaryActivity"
+            android:parentActivityName="com.example.utu.ututrail.ChooseDestinationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChooseDestinationActivity" />
+        </activity>
+        <activity
+            android:name="com.example.utu.ututrail.SignupActivity"
+            android:parentActivityName="com.example.utu.ututrail.LoginActivity" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name="com.example.utu.ututrail.ChooseSeatActivity"
+            android:parentActivityName="com.example.utu.ututrail.TripSummaryActivity" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TripSummaryActivity" />
+
+            <intent-filter>
+                <action android:name="com.hmkcode.android.ChooseTrainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utu.ututrail.AdminActivity"
+            android:parentActivityName="com.example.utu.ututrail.AdminActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name="com.example.utu.ututrail.ChooseDestinationActivity"
+            android:parentActivityName="com.example.utu.ututrail.ChooseDestinationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+
+        <provider
+            android:name="com.example.utu.ututrail.data.RailContentProvider"
+            android:authorities="com.example.utu.ututrail.provider"
+            android:exported="false" />
+
+        <activity android:name="com.example.utu.ututrail.CatalogActivity" />
+        <activity android:name="com.example.utu.ututrail.AboutTripActivity" />
+        <activity android:name="com.example.utu.ututrail.TrainCatalog" />
+        <activity android:name="com.example.utu.ututrail.EditTrain" />
+        <activity android:name="com.example.utu.ututrail.TrainTypeOrder" />
+        <activity android:name="com.example.utu.ututrail.PaymentActivity" />
+        <activity android:name="com.example.utu.ututrail.GoodByeActivity" />
+        <activity android:name="com.example.utu.ututrail.TicketsCatalog" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
