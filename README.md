@@ -7,7 +7,7 @@ Admin has an opportunity to edit trains and other info. A user can choose the de
 
 Using a MySQL database of tickets located on a webpage allows monitor what tickets are available since their status changes after the order had been made.  
 
-![alt text](https://github.com/lilja-listus/UTUtrail/blob/master/login.jpg)
-![alt text](https://github.com/lilja-listus/UTUtrail/blob/master/seat_options.jpg)
-![alt text](https://github.com/lilja-listus/UTUtrail/blob/master/trip_options.jpg)
-![alt text](https://github.com/lilja-listus/UTUtrail/blob/master/last_page.jpg)
+<img src="https://github.com/lilja-listus/UTUtrail/blob/master/login.jpg" width="200" height="400" />
+<img src="https://github.com/lilja-listus/UTUtrail/blob/master/seat_options.jpg" width="200" height="400" />
+<img src="https://github.com/lilja-listus/UTUtrail/blob/master/trip_options.jpg" width="200" height="400" />
+<img src="https://github.com/lilja-listus/UTUtrail/blob/master/last_page.jpg" width="200" height="400" />
