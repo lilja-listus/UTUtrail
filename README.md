@@ -1,5 +1,5 @@
 
-The app was my course project for my course "User Interfaces" at the University of Turku.
+The app was my course project for the course "User Interfaces" at the University of Turku.
 
 The app is a booking system for trains. If a user has an account already, he can sign in as a user or as an admin (pass 1111). The user has also an option to sign up if he doesn't have an account.
 
