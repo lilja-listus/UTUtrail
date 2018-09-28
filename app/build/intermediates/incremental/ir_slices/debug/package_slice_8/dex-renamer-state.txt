@@ -1,0 +1,4 @@
+#Fri Sep 28 17:53:47 EEST 2018
+base.0=/home/lilja/TicketBooking/Kayttoliittymat-2018-master/UTUtrail/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

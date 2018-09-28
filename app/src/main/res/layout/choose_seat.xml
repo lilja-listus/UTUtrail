@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:hint="Lippu"
+            android:hint="Ticket"
             android:textSize="25sp" />
 
         <LinearLayout
@@ -48,7 +48,7 @@
                     android:layout_span="4"
                     android:background="#FFFFFF"
                     android:gravity="center"
-                    android:text="Valitse vaunu"
+                    android:text="Choose Carriage"
                     android:textColor="#000000" />
             </TableRow>
 
@@ -93,19 +93,19 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="allergia"
+                    android:text="allegry"
                     android:id="@+id/allergy_box"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="lemikki"
+                    android:text="pet"
                     android:id="@+id/pet_box"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="pyoratuoli"
+                    android:text="wheelchair"
                     android:id="@+id/wheelchair_box"/>
 
             </LinearLayout>
@@ -121,18 +121,18 @@
                     android:id="@+id/quiet_box"
                     android:layout_width="wrap_content"
                     android:layout_height="84dp"
-                    android:text="hiljainen" />
+                    android:text="quiet" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="perhetila"
+                    android:text="family box"
                     android:id="@+id/family_box"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="leikkitila"
+                    android:text="playground"
                     android:id="@+id/playground_box"/>
 
             </LinearLayout>

@@ -333,44 +333,44 @@ public class RailContentHelper extends SQLiteOpenHelper {
 
         ContentValues initialValues = new ContentValues();
         initialValues.put("name", "UTU1");
-        initialValues.put("type", "pika");
-        initialValues.put("duration", "2 tuntia");
-        initialValues.put("price", "20 euroa");
-        initialValues.put("service", "ruoka, perhetila, wifi");
+        initialValues.put("type", "fast");
+        initialValues.put("duration", "2 hours");
+        initialValues.put("price", "20 euros");
+        initialValues.put("service", "food, familyplace, wifi");
 
         database.insert(UsersEntry.TABLE_NAME_TRAINS, null, initialValues);
         initialValues.put("name", "UTU2");
         initialValues.put("type", "slow");
-        initialValues.put("duration", "5 tuntia");
-        initialValues.put("price", "30 euroa");
+        initialValues.put("duration", "5 hours");
+        initialValues.put("price", "30 euros");
         initialValues.put("service", "wifi");
 
         database.insert(UsersEntry.TABLE_NAME_TRAINS, null, initialValues);
         initialValues.put("name", "UTU3");
         initialValues.put("type", "slow");
-        initialValues.put("duration", "5 tuntia");
-        initialValues.put("price", "30 euroa");
+        initialValues.put("duration", "5 hours");
+        initialValues.put("price", "30 euros");
         initialValues.put("service", "wifi");
 
         database.insert(UsersEntry.TABLE_NAME_TRAINS, null, initialValues);
         initialValues.put("name", "UTU4");
         initialValues.put("type", "slow");
-        initialValues.put("duration", "5 tuntia");
-        initialValues.put("price", "30 euroa");
+        initialValues.put("duration", "5 hours");
+        initialValues.put("price", "30 euros");
         initialValues.put("service", "wifi");
 
         database.insert(UsersEntry.TABLE_NAME_TRAINS, null, initialValues);
         initialValues.put("name", "UTU5");
         initialValues.put("type", "slow");
-        initialValues.put("duration", "5 tuntia");
-        initialValues.put("price", "30 euroa");
+        initialValues.put("duration", "5 houts");
+        initialValues.put("price", "30 euros");
         initialValues.put("service", "wifi");
 
         database.insert(UsersEntry.TABLE_NAME_TRAINS, null, initialValues);
         initialValues.put("name", "UTU6");
-        initialValues.put("type", "slow");
-        initialValues.put("duration", "5 tuntia");
-        initialValues.put("price", "30 euroa");
+        initialValues.put("type", "fast");
+        initialValues.put("duration", "5 hours");
+        initialValues.put("price", "20 euros");
         initialValues.put("service", "wifi");
 
         database.insert(UsersEntry.TABLE_NAME_TRAINS, null, initialValues);

@@ -38,7 +38,7 @@
 
 
     <!-- User activity-->
-    <string name="welcome">Kiitos!</string>
+    <string name="welcome">Thank You!</string>
     <string name="continue_button">Continue</string>
 
 
@@ -93,9 +93,9 @@
 
     <!--Login view -->
 
-    <string name="user_name">username</string>
-    <string name="password">password</string>
-    <string name="login">login</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
     <string name="sign_up">New User</string>
 
     <!--Payment view -->

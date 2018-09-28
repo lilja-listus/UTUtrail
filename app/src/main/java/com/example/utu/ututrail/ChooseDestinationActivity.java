@@ -107,10 +107,10 @@ public class ChooseDestinationActivity extends AppCompatActivity implements Time
                 numberOfTicketsStr = String.valueOf(numberOfSeats.getSelectedItem());
 
                 //message that we pass to the next activity
-                String message = "Mistä: " + fromWhere + ", mihin: " + where
-                        + "\n" + "Päivä: " + dateOfTravelStr +
-                        "\n" + "Lippujen määrä: " + numberOfTicketsStr
-                        + "\n" + "Aika: " + timeTravel;
+                String message = "From: " + fromWhere + ", to: " + where
+                        + "\n" + "Date: " + dateOfTravelStr +
+                        "\n" + "Amount of Tickets: " + numberOfTicketsStr
+                        + "\n" + "Time: " + timeTravel;
 
                 Intent intent = new Intent(ChooseDestinationActivity.this, TripSummaryActivity.class);
                 intent.putExtra(EXTRA_MESSAGE, message);
@@ -169,7 +169,6 @@ public class ChooseDestinationActivity extends AppCompatActivity implements Time
         int id = item.getItemId();
         switch (id) {
             case R.id.admin:
-                //todo: send here to the muokkaus of this page
                 Intent intent = new Intent(ChooseDestinationActivity.this, AdminActivity.class);
                 startActivity(intent);
         }
@@ -180,7 +179,7 @@ public class ChooseDestinationActivity extends AppCompatActivity implements Time
 
     @Override
     public void onFinishDialog(String time) {
-        Toast.makeText(this, "Valittu aika : " + time, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Chosen Time : " + time, Toast.LENGTH_SHORT).show();
         timeTravel = time;
     }
 

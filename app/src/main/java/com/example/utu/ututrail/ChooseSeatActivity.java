@@ -326,7 +326,7 @@ public class ChooseSeatActivity extends AppCompatActivity {
         private void onChosenCarriage(TextView carriage, String chosenCarriage, TextView otherCarriage, TableLayout chooseSeatTable) {
             carriage.setBackgroundColor(0xFF00FF00);
             otherCarriage.setBackgroundColor(0xFFFFFF);
-            Toast.makeText(ChooseSeatActivity.this, "Vaunu " + chosenCarriage, Toast.LENGTH_SHORT).show();
+            Toast.makeText(ChooseSeatActivity.this, "Carriage " + chosenCarriage, Toast.LENGTH_SHORT).show();
             chooseSeatTable.setVisibility(View.VISIBLE);
 
         }
@@ -373,7 +373,7 @@ public class ChooseSeatActivity extends AppCompatActivity {
                         if (chosenSeat.contains("B")){
                             vaunu = "2";
                         }
-                        setTravelData.setText("Vaunu: " + vaunu + ",paikka: " + chosenSeat);
+                        setTravelData.setText("Carriage: " + vaunu + ", seat: " + chosenSeat);
 
                     }
                 });

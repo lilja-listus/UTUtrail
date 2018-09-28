@@ -826,13 +826,13 @@
     <string name="hello_admin">Welcome, Admin</string>
     <string name="keep_editing">Keep editing</string>
     <string name="last_name">Last Name</string>
-    <string name="login">login</string>
+    <string name="login">Login</string>
     <string name="make_booking">Choose Trip</string>
     <string name="menu_editor">Menu editor</string>
     <string name="my_tickets">My Tickets</string>
     <string name="next">next</string>
     <string name="one_more">Add a Ticket</string>
-    <string name="password">password</string>
+    <string name="password">Password</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -861,8 +861,8 @@
     <string name="train_type">Train Type</string>
     <string name="trip_duration">Trip Duration</string>
     <string name="unsaved_changes_dialog_msg">Unsaved changes</string>
-    <string name="user_name">username</string>
-    <string name="welcome">Kiitos!</string>
+    <string name="user_name">Username</string>
+    <string name="welcome">Thank You!</string>
     <string name="wrong_log_or_pass">Username or password is incorrect</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
